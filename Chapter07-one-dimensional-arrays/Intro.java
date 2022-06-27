@@ -38,6 +38,10 @@ public class Intro
         {
             count++;
         }
+        if (grade6 > average)
+        {
+            count++;
+        }
         System.out.printf(("The average grade is %5.2f\n"), average);
 
         System.out.printf("the number of grades that are above the average is: %d\n", count);
