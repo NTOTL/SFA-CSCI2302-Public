@@ -9,13 +9,14 @@ public class Intro
 {
     public static void main(String[] args)
     {
-        int grade1 = 95;
-        int grade2 = 80;
-        int grade3 = 98;
-        int grade4 = 84;
-        int grade5 = 88;
+        double grade1 = 95;
+        double grade2 = 80;
+        double grade3 = 98;
+        double grade4 = 84;
+        double grade5 = 88;
+        double grade6 = 87;
 
-        double average = (grade1 + grade2 + grade3 + grade4 + grade5)/5.0;
+        double average = (grade1 + grade2 + grade3 + grade4 + grade5 + grade6)/6;
         int count = 0;
         if (grade1 > average)
         {
